@@ -17,11 +17,15 @@
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
-  flex-direction: column;
+  gap: 50px;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  
+  &>*{
+    padding: 30px;
+  }
 }
 
 button {
@@ -41,6 +45,10 @@ img{
   color: #61dafb;
 }
 
+.carDetails {
+  min-width: 400px;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -49,3 +57,4 @@ img{
     transform: rotate(360deg);
   }
 }
+
